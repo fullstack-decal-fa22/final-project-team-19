@@ -1,32 +1,70 @@
-# mern-tailwind-vivid-starter
-A starter repository with React, Tailwind, Vivid, and Express set up
+# Getting Started with Create React App
 
-# Getting Started
-This repository contains both an Express backend (within api) and a React frontend (within client). To get started, clone the repository. Navigate to your terminal and execute the following command.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-```bash
-git clone https://github.com/vivid-labs/mern-tailwind-vivid-starter.git
-```
-In order to have a fully functional web app, you'll need to run both the frontend and the backend simultaneously. 
-## Starting the frontend
-From the root of the repository, you'll need to enter the client folder, install the necessary dependencies, and run the app. 
-```bash
-cd client
-#If you don't already have yarn
-npm install --global yarn
-yarn install
-yarn start
-```
-Navigate to localhost:3000 to see the running app. You'll notice that the Express status will state "Currently down." It will remain that way until you start the backend. 
+## Available Scripts
 
-## Starting the backend
-From the root of the repository, you'll need to enter the api folder, install the necessary dependencies, and run the server. 
-```bash
-cd api
-yarn install
-yarn start
-```
-Navigate to localhost:9000/testAPI to see the results of the /testAPI route. If you refresh your localhost:3000 tab, your Express status should change. 
+In the project directory, you can run:
 
-# Styling with Vivid
-Vivid lets you style with Tailwind in your browser. <kbd>Cmd</kbd>-Click (Windows: <kbd>Ctrl</kbd>) on any component to see its code. Check out [Vivid's docs](https://docs.vivid.lol) for a guide to its full functionality. 
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

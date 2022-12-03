@@ -1,0 +1,7 @@
+#tile {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
