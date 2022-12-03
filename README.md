@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# Soda Hall - The Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A 2D React-based web game using a mongoDB backend
+where the player quickly navigates through puzzle-like rooms to reach the top of Soda Hall.
+Features four levels and an online leaderboard. 
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run start-game`
+Runs the app in the development mode and establishes connection with the server. 
+
 
 ### `npm start`
 
